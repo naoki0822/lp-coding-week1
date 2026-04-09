@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/* リセット（最小） */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Meiryo", sans-serif;
+}
+
+/* 全体 */
+.header {
+  width: 100%;
+  background: #fff;
+}
+
+/* インフォメーション */
+.header__info {
+  border-bottom: 2px solid #DADADA;
+  text-align: center;
+}
+
+.header__info p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #333;
+  margin: 0;
+}
+
+/* 中身 */
+.header__inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ロゴ */
+.header__logo {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  padding: 11px 0 26px 0;
+}
+
+.header__logo-img {
+  width: 295px;
+  height: auto;
+  display: block;
+}
+
+.header__tel-img {
+  width: 550px;
+  height: auto;
+  display: block;
+}
+
+/* ナビ */
+.nav__list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0 78px 0 37px;
+}
+
+.nav__list a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+}
+
