@@ -1,1 +1,0 @@
-# lp-coding-week1
